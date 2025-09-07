@@ -1,0 +1,24 @@
+[
+  {
+    "capacity": 100,
+    "college_id": 1,
+    "description": null,
+    "end_time": "2025-09-10T13:00",
+    "event_type": "Workshop",
+    "id": 1,
+    "is_cancelled": 0,
+    "start_time": "2025-09-10T10:00",
+    "title": "Tech Workshop"
+  },
+  {
+    "capacity": 500,
+    "college_id": 1,
+    "description": null,
+    "end_time": "2025-09-15T18:00",
+    "event_type": "Fest",
+    "id": 2,
+    "is_cancelled": 0,
+    "start_time": "2025-09-15T09:00",
+    "title": "Campus Fest"
+  }
+]

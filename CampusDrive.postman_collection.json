@@ -1,0 +1,191 @@
+{
+  "info": {
+    "name": "Campus Drive API (Full)",
+    "_postman_id": "abcdef12-3456-7890-abcd-ef1234567890",
+    "description": "Full Postman collection for Campus Drive project",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "List Events",
+      "request": {
+        "method": "GET",
+        "url": {
+          "raw": "{{base_url}}/events",
+          "host": ["{{base_url}}"],
+          "path": ["events"]
+        }
+      }
+    },
+
+    // ---------------- RAVI ---------------- //
+    {
+      "name": "Register Ravi Kumar",
+      "request": {
+        "method": "POST",
+        "header": [{ "key": "Content-Type", "value": "application/json" }],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"student\": {\n    \"name\": \"Ravi Kumar\",\n    \"email\": \"ravi@example.com\",\n    \"roll_no\": \"B21CS010\",\n    \"college_id\": 1\n  }\n}"
+        },
+        "url": { "raw": "{{base_url}}/events/1/register", "host": ["{{base_url}}"], "path": ["events", "1", "register"] }
+      }
+    },
+    {
+      "name": "Attendance - Ravi Kumar",
+      "request": {
+        "method": "POST",
+        "header": [{ "key": "Content-Type", "value": "application/json" }],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"student_email\": \"ravi@example.com\",\n  \"method\": \"manual\"\n}"
+        },
+        "url": { "raw": "{{base_url}}/events/1/attendance", "host": ["{{base_url}}"], "path": ["events", "1", "attendance"] }
+      }
+    },
+
+    // ---------------- PRIYA ---------------- //
+    {
+      "name": "Register Priya Singh",
+      "request": {
+        "method": "POST",
+        "header": [{ "key": "Content-Type", "value": "application/json" }],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"student\": {\n    \"name\": \"Priya Singh\",\n    \"email\": \"priya@example.com\",\n    \"roll_no\": \"B21CS011\",\n    \"college_id\": 1\n  }\n}"
+        },
+        "url": { "raw": "{{base_url}}/events/1/register", "host": ["{{base_url}}"], "path": ["events", "1", "register"] }
+      }
+    },
+    {
+      "name": "Attendance - Priya Singh",
+      "request": {
+        "method": "POST",
+        "header": [{ "key": "Content-Type", "value": "application/json" }],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"student_email\": \"priya@example.com\",\n  \"method\": \"manual\"\n}"
+        },
+        "url": { "raw": "{{base_url}}/events/1/attendance", "host": ["{{base_url}}"], "path": ["events", "1", "attendance"] }
+      }
+    },
+
+    // ---------------- ADITYA ---------------- //
+    {
+      "name": "Register Aditya Verma",
+      "request": {
+        "method": "POST",
+        "header": [{ "key": "Content-Type", "value": "application/json" }],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"student\": {\n    \"name\": \"Aditya Verma\",\n    \"email\": \"aditya@example.com\",\n    \"roll_no\": \"B21CS012\",\n    \"college_id\": 1\n  }\n}"
+        },
+        "url": { "raw": "{{base_url}}/events/1/register", "host": ["{{base_url}}"], "path": ["events", "1", "register"] }
+      }
+    },
+    {
+      "name": "Attendance - Aditya Verma",
+      "request": {
+        "method": "POST",
+        "header": [{ "key": "Content-Type", "value": "application/json" }],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"student_email\": \"aditya@example.com\",\n  \"method\": \"manual\"\n}"
+        },
+        "url": { "raw": "{{base_url}}/events/1/attendance", "host": ["{{base_url}}"], "path": ["events", "1", "attendance"] }
+      }
+    },
+
+    // ---------------- KRITI ---------------- //
+    {
+      "name": "Register Kriti Sharma",
+      "request": {
+        "method": "POST",
+        "header": [{ "key": "Content-Type", "value": "application/json" }],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"student\": {\n    \"name\": \"Kriti Sharma\",\n    \"email\": \"kriti@example.com\",\n    \"roll_no\": \"B21CS013\",\n    \"college_id\": 1\n  }\n}"
+        },
+        "url": { "raw": "{{base_url}}/events/1/register", "host": ["{{base_url}}"], "path": ["events", "1", "register"] }
+      }
+    },
+    {
+      "name": "Attendance - Kriti Sharma",
+      "request": {
+        "method": "POST",
+        "header": [{ "key": "Content-Type", "value": "application/json" }],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"student_email\": \"kriti@example.com\",\n  \"method\": \"manual\"\n}"
+        },
+        "url": { "raw": "{{base_url}}/events/1/attendance", "host": ["{{base_url}}"], "path": ["events", "1", "attendance"] }
+      }
+    },
+
+    // ---------------- MOHIT ---------------- //
+    {
+      "name": "Register Mohit Yadav",
+      "request": {
+        "method": "POST",
+        "header": [{ "key": "Content-Type", "value": "application/json" }],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"student\": {\n    \"name\": \"Mohit Yadav\",\n    \"email\": \"mohit@example.com\",\n    \"roll_no\": \"B21CS014\",\n    \"college_id\": 1\n  }\n}"
+        },
+        "url": { "raw": "{{base_url}}/events/1/register", "host": ["{{base_url}}"], "path": ["events", "1", "register"] }
+      }
+    },
+    {
+      "name": "Attendance - Mohit Yadav",
+      "request": {
+        "method": "POST",
+        "header": [{ "key": "Content-Type", "value": "application/json" }],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"student_email\": \"mohit@example.com\",\n  \"method\": \"manual\"\n}"
+        },
+        "url": { "raw": "{{base_url}}/events/1/attendance", "host": ["{{base_url}}"], "path": ["events", "1", "attendance"] }
+      }
+    },
+
+    // ---------------- SIMRAN ---------------- //
+    {
+      "name": "Register Simran Kaur",
+      "request": {
+        "method": "POST",
+        "header": [{ "key": "Content-Type", "value": "application/json" }],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"student\": {\n    \"name\": \"Simran Kaur\",\n    \"email\": \"simran@example.com\",\n    \"roll_no\": \"B21CS015\",\n    \"college_id\": 1\n  }\n}"
+        },
+        "url": { "raw": "{{base_url}}/events/1/register", "host": ["{{base_url}}"], "path": ["events", "1", "register"] }
+      }
+    },
+    {
+      "name": "Attendance - Simran Kaur",
+      "request": {
+        "method": "POST",
+        "header": [{ "key": "Content-Type", "value": "application/json" }],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"student_email\": \"simran@example.com\",\n  \"method\": \"manual\"\n}"
+        },
+        "url": { "raw": "{{base_url}}/events/1/attendance", "host": ["{{base_url}}"], "path": ["events", "1", "attendance"] }
+      }
+    },
+
+    // ---------------- REPORT ---------------- //
+    {
+      "name": "Top Students Report (Top 5)",
+      "request": {
+        "method": "GET",
+        "url": {
+          "raw": "{{base_url}}/reports/top_students?limit=5",
+          "host": ["{{base_url}}"],
+          "path": ["reports", "top_students"],
+          "query": [{ "key": "limit", "value": "5" }]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+[
+  {
+    "attended_count": 1,
+    "email": "priya@example.com",
+    "id": 4,
+    "name": "Priya Singh"
+  },
+  {
+    "attended_count": 1,
+    "email": "ravi@example.com",
+    "id": 3,
+    "name": "Ravi Kumar"
+  },
+  {
+    "attended_count": 1,
+    "email": "aaryav@example.com",
+    "id": 1,
+    "name": "Aaryav Sharma"
+  }
+]
